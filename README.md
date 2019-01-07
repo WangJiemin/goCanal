@@ -10,7 +10,7 @@
 * Canal记录消费位置
 
 ## goCanal解析流程
-![Canal](protocol)(images/proto.jpg)
+![Canal](images/proto.jpg)
 ```proto
 数据对象格式：EntryProtocol.proto
 
@@ -60,5 +60,5 @@ go get  github.com/WangJiemin/goCanal
 ````
 
 ## 参考：
-[CanalClient](https://github.com/CanalClient/canal-go)(感谢大神开源)
+[CanalClient](https://github.com/CanalClient/canal-go)(感谢大神)
 
