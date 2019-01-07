@@ -6,8 +6,8 @@ import (
 	"os"
 	"time"
 
-	"goCanal/client"
-	pb "goCanal/protocol"
+	"github.com/WangJiemin/goCanal/client"
+	pb "github.com/WangJiemin/goCanal/protocol"
 
 	pto "github.com/golang/protobuf/proto"
 )

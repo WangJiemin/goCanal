@@ -1,7 +1,7 @@
 package client
 
 import (
-	pb "goCanal/protocol"
+	pb "github.com/WangJiemin/goCanal/protocol"
 )
 
 type CanalConnector interface {

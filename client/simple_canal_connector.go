@@ -11,7 +11,7 @@ import (
 	"strconv"
 	"sync"
 
-	pb "goCanal/protocol"
+	pb "github.com/WangJiemin/goCanal/protocol"
 	pto "github.com/golang/protobuf/proto"
 )
 
