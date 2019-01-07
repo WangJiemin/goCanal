@@ -1,6 +1,10 @@
 ## 工作原理
 它是 Canal 的 golang 客户端，它与 Canal 是采用的Socket来进行通信的，传输协议是TCP，交互协议采用的是 Google Protocol Buffer 3.0。
 
+
+## MySQL REPLICATION原理图
+![MySQL replication](images/replication.jpg)
+
 ## 工作流程
 * Master发生数据变更写入到binlog
 * Canal 模拟 MySQL SLAVE 开启io_thread 线程 发起dump请求,获取Master binlog并且解析
