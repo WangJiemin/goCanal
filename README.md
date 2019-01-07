@@ -10,7 +10,7 @@
 * Canal记录消费位置
 
 ## goCanal解析流程
-![Canal](images/proto.jpg)(protocol)
+![Canal](protocol)(images/proto.jpg)
 ```proto
 数据对象格式：EntryProtocol.proto
 
