@@ -5,6 +5,9 @@
 ## MySQL REPLICATION原理图
 ![MySQL replication](images/replication.jpg)
 
+## Canal原理图
+![Canal原理图](images/Canal原理图.jpg)
+
 ## 工作流程
 * Master发生数据变更写入到binlog
 * Canal 模拟 MySQL SLAVE 开启io_thread 线程 发起dump请求,获取Master binlog并且解析
