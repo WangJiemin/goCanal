@@ -56,7 +56,7 @@ Canal的安装以及配置使用请查看 https://github.com/alibaba/canal/wiki/
 ### 3.为该项目从 go get 安装 canal-go
 
 ````shell
-go get  github.com/WangJiemin/goCanal
+go get github.com/WangJiemin/goCanal
 ````
 
 ## 参考：
